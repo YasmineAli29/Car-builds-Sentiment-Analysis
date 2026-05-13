@@ -1,0 +1,63 @@
+LEXICAL MODELS BENCHMARK REPORT
+============================================================
+
+Scheme: scheme1
+Model: BingLiu
+F1 Score (weighted): 0.6750
+Accuracy: 0.6753
+Confusion Matrix:
+[[ 97  63  25]
+ [ 72 355  86]
+ [ 11  69 226]]
+--------------------------------------------------
+
+Scheme: scheme1
+Model: SentiWordNet
+F1 Score (weighted): 0.5708
+Accuracy: 0.5627
+Confusion Matrix:
+[[ 93  35  57]
+ [123 266 124]
+ [ 45  55 206]]
+--------------------------------------------------
+
+Scheme: scheme2
+Model: BingLiu
+F1 Score (weighted): 0.6760
+Accuracy: 0.6763
+Confusion Matrix:
+[[ 97  63  25]
+ [ 72 356  85]
+ [ 11  69 226]]
+--------------------------------------------------
+
+Scheme: scheme2
+Model: SentiWordNet
+F1 Score (weighted): 0.5739
+Accuracy: 0.5657
+Confusion Matrix:
+[[ 93  35  57]
+ [123 267 123]
+ [ 45  53 208]]
+--------------------------------------------------
+
+Scheme: scheme3
+Model: BingLiu
+F1 Score (weighted): 0.6900
+Accuracy: 0.6912
+Confusion Matrix:
+[[ 97  61  27]
+ [ 60 368  85]
+ [ 10  67 229]]
+--------------------------------------------------
+
+Scheme: scheme3
+Model: SentiWordNet
+F1 Score (weighted): 0.5835
+Accuracy: 0.5757
+Confusion Matrix:
+[[ 91  34  60]
+ [125 273 115]
+ [ 39  53 214]]
+--------------------------------------------------
+

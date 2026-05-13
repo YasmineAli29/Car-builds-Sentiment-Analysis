@@ -1,0 +1,172 @@
+===== STDOUT =====
+Running on scheme1_bow_model
+
+
+--- Naive Bayes ---
+Accuracy: 0.582089552238806
+              precision    recall  f1-score   support
+
+    negative       0.36      0.27      0.31        37
+     neutral       0.70      0.69      0.70       103
+    positive       0.50      0.59      0.54        61
+
+    accuracy                           0.58       201
+   macro avg       0.52      0.52      0.52       201
+weighted avg       0.58      0.58      0.58       201
+
+
+--- Decision Tree ---
+Accuracy: 0.7114427860696517
+              precision    recall  f1-score   support
+
+    negative       0.56      0.14      0.22        37
+     neutral       0.68      0.97      0.80       103
+    positive       0.86      0.62      0.72        61
+
+    accuracy                           0.71       201
+   macro avg       0.70      0.58      0.58       201
+weighted avg       0.71      0.71      0.67       201
+
+Running on scheme2_bow_model
+
+
+--- Naive Bayes ---
+Accuracy: 0.5920398009950248
+              precision    recall  f1-score   support
+
+    negative       0.40      0.32      0.36        37
+     neutral       0.72      0.69      0.70       103
+    positive       0.50      0.59      0.54        61
+
+    accuracy                           0.59       201
+   macro avg       0.54      0.53      0.53       201
+weighted avg       0.59      0.59      0.59       201
+
+
+--- Decision Tree ---
+Accuracy: 0.7213930348258707
+              precision    recall  f1-score   support
+
+    negative       0.62      0.14      0.22        37
+     neutral       0.68      0.97      0.80       103
+    positive       0.89      0.66      0.75        61
+
+    accuracy                           0.72       201
+   macro avg       0.73      0.59      0.59       201
+weighted avg       0.73      0.72      0.68       201
+
+Running on scheme3_bow_model
+
+
+--- Naive Bayes ---
+Accuracy: 0.582089552238806
+              precision    recall  f1-score   support
+
+    negative       0.45      0.35      0.39        37
+     neutral       0.68      0.67      0.67       103
+    positive       0.50      0.57      0.53        61
+
+    accuracy                           0.58       201
+   macro avg       0.54      0.53      0.53       201
+weighted avg       0.58      0.58      0.58       201
+
+
+--- Decision Tree ---
+Accuracy: 0.7114427860696517
+              precision    recall  f1-score   support
+
+    negative       0.50      0.05      0.10        37
+     neutral       0.66      0.98      0.79       103
+    positive       0.89      0.66      0.75        61
+
+    accuracy                           0.71       201
+   macro avg       0.68      0.56      0.55       201
+weighted avg       0.70      0.71      0.65       201
+
+Running on scheme1_glove_model
+
+
+--- Naive Bayes ---
+Accuracy: 0.5124378109452736
+              precision    recall  f1-score   support
+
+    negative       0.31      0.70      0.43        37
+     neutral       0.75      0.45      0.56       103
+    positive       0.56      0.51      0.53        61
+
+    accuracy                           0.51       201
+   macro avg       0.54      0.55      0.51       201
+weighted avg       0.61      0.51      0.53       201
+
+
+--- Decision Tree ---
+Accuracy: 0.5771144278606966
+              precision    recall  f1-score   support
+
+    negative       0.39      0.35      0.37        37
+     neutral       0.67      0.65      0.66       103
+    positive       0.53      0.59      0.56        61
+
+    accuracy                           0.58       201
+   macro avg       0.53      0.53      0.53       201
+weighted avg       0.58      0.58      0.58       201
+
+Running on scheme2_glove_model
+
+
+--- Naive Bayes ---
+Accuracy: 0.527363184079602
+              precision    recall  f1-score   support
+
+    negative       0.33      0.70      0.45        37
+     neutral       0.75      0.45      0.56       103
+    positive       0.56      0.56      0.56        61
+
+    accuracy                           0.53       201
+   macro avg       0.55      0.57      0.52       201
+weighted avg       0.62      0.53      0.54       201
+
+
+--- Decision Tree ---
+Accuracy: 0.472636815920398
+              precision    recall  f1-score   support
+
+    negative       0.32      0.41      0.36        37
+     neutral       0.57      0.56      0.57       103
+    positive       0.42      0.36      0.39        61
+
+    accuracy                           0.47       201
+   macro avg       0.44      0.44      0.44       201
+weighted avg       0.48      0.47      0.47       201
+
+Running on scheme3_glove_model
+
+
+--- Naive Bayes ---
+Accuracy: 0.5422885572139303
+              precision    recall  f1-score   support
+
+    negative       0.35      0.76      0.48        37
+     neutral       0.76      0.46      0.57       103
+    positive       0.58      0.56      0.57        61
+
+    accuracy                           0.54       201
+   macro avg       0.56      0.59      0.54       201
+weighted avg       0.63      0.54      0.55       201
+
+
+--- Decision Tree ---
+Accuracy: 0.5124378109452736
+              precision    recall  f1-score   support
+
+    negative       0.27      0.35      0.31        37
+     neutral       0.63      0.64      0.64       103
+    positive       0.49      0.39      0.44        61
+
+    accuracy                           0.51       201
+   macro avg       0.47      0.46      0.46       201
+weighted avg       0.52      0.51      0.52       201
+
+
+
+===== STDERR =====

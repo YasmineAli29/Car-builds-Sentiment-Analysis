@@ -1,0 +1,35 @@
+comparison: 
+SOTA model:
+                 precision     recall   f1-score   support
+
+    negative       0.48      0.57      0.52        37
+    neutral        0.72      0.79      0.75       103
+    positive       0.80      0.57      0.67        61
+    
+    accuracy                           0.68       201
+    macro avg       0.66      0.64     0.65       201
+    weighted avg    0.70      0.68     0.68       201
+
+F1: 0.6450617283950617
+Accuracy: 0.681592039800995
+Confusion Matrix:
+ [[21 16  0]
+ [13 81  9]
+ [10 16 35]]
+
+Linear SVC
+                 precision     recall   f1-score   support
+
+    negative       0.65      0.35      0.46        37
+     neutral       0.75      0.92      0.83       103
+    positive       0.78      0.69      0.73        61
+
+    accuracy                           0.75       201
+    macro avg       0.73      0.65     0.67       201
+    weighted avg    0.74      0.75     0.73       201
+
+F1: 0.670887363335876
+Accuracy: 0.746268656716418
+[[13 17  7]
+ [ 3 95  5]
+ [ 4 15 42]]
