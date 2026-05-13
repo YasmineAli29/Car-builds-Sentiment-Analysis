@@ -70,6 +70,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 <h2>Acknowledgments</h2>
 The teaching staff in my college.
+</br>
 My teammates in the project.
 
 <h2>Contacts</h2>
